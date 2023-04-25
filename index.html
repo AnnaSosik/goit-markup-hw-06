@@ -433,11 +433,44 @@
             </li>
           </ul>
           </div>
+          <div class="footer-form">
+          <p class="join-us">zapisz się do newslettera</p>
+        <form class="mail">
+          <label>
+            <input type="email" name="email" class="mail-input" placeholder="E-mail" />
+          </label>
+          <button class="mail-btn" type="submit">  
+          <span class="mail-btn-name">Zapisz się</span>  
+          <img class="sign-in-icon" src="./">
+        </button>
+        </form>
+          </div>
         </div>
-      </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <p class="modal-header">Zostaw swoje dane w formularzu poniżej</p>
+        <form>
+          <label class="label-name">
+            Imie
+            <input type="name" name="name" />
+          </label>
+          <form>
+            <label class="label-name">
+              Telefon
+              <input type="tel" name="tel" />
+            </label>
+            <form>
+              <label class="label-name">
+                Email
+                <input type="email" name="email" />
+              </label>
+              <label class="label-name">
+                Komentarz
+                <textarea name="comment" rows="5" placeholder="Wprowadź tekst"></textarea>
+              </label>
+
+
         <button type="button" class="btn-close" data-modal-close>
           <svg class="btn-close-icon" width="11" height="11">
             <use href="./images/icons.svg#btn-close-icon"></use>

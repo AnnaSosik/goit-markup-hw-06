@@ -678,6 +678,64 @@ body {
   align-items: center;
 }
 
+
+.footer-form { 
+margin-left: 78px;
+
+
+}
+
+.mail-input{
+
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color:var(--brand-background-dark);
+}
+
+.mail-input::placeholder {
+  margin-left: 16px;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-btn {
+
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  background-color: var(--brand-color-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.mail-btn-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--brand-background-white);
+}
+
+.mail {
+  display: flex;
+}
+
+.sign-in-icon {
+  margin-left: 24px;
+}
+
+
 /*MODAL*/
 
 .backdrop {
@@ -739,3 +797,25 @@ body {
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotate(-180deg);
 }
+
+
+/*MODAL FORM*/
+
+.modal-header{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--brand-color-black);
+  margin-top: 40px;
+}
+
+.label-name {
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.01em;
+color: var(--brand-color-grey);
+}
+
