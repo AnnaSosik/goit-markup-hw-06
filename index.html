@@ -57,6 +57,51 @@
           <h1 class="top-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <button type="button" class="top-button" data-modal-open>Zamów usługę</button>
         </div>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button type="button" class="btn-close" data-modal-close>
+              <svg class="btn-close-icon" width="11" height="11">
+                <use href="./images/icons.svg#btn-close-icon"></use>
+              </svg>
+            </button>
+            
+        <p class="modal-header">Zostaw swoje dane w formularzu poniżej</p>
+
+        <form class="modal-form">
+          <label class="label" for="name">Imię</label>
+          <div class="form-container">
+            <input type="text" name="name" id="name" class="modal-input" />
+            <svg class="modal-form-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-name"></use>
+            </svg>
+          </div>
+          <label class="label" for="tel">Telefon</label>
+          <div class="form-container">
+            <input type="tel" name="tel" id="tel" class="modal-input" />
+          <svg class="modal-form-icon" width="13" height="13">
+          <use href="./images/icons.svg#icon-tel"></use>
+        </svg>
+          </div>
+          <label class="label" for="mail">Email</label>
+          <div class="form-container">
+            <input type="text" name="mail" id="mail" class="modal-input" />
+          <svg class="modal-form-icon" width="15" height="12">
+          <use href="./images/icons.svg#icon-mail"></use>
+        </svg>
+          </div>
+        <label class="label" for="comment">Komentarz</label>
+        <div class="form-container">
+        <textarea name="comment" width="448" height="120" class="modal-comment" placeholder="Wprowadź tekst"></textarea>
+      </div>
+      <div class="privacy-container">
+        <input type="checkbox" class="policy-checkbox" name="text" id="policy-check" required>
+      <label class="policy-box" for="policy-check">Oświadczam iż akceptuję<span><a class="link-decoration" href="" > Regulamin </a></span> i <span><a class="link-decoration" href="">Politykę Prywatności.</a></span></label>
+    </div> 
+<div class="form-btn-container">
+             <button type="submit" class="modal-submit-btn">Wyślij</button>
+            </form>
+          </div>
+        </div>
       </section>
       <section class="section content-list">
         <div class="container">
@@ -447,53 +492,7 @@
           </div>
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <div class="modal-form">
-        <p class="modal-header">Zostaw swoje dane w formularzu poniżej</p>
-        <form>
-          <label>
-            Imie
-            <input type="name" name="name" class="modal-input" />
-          </label>
-          <form>
-            <label>
-              Telefon
-              <input type="tel" name="tel" class="modal-input"/>
-            </label>
-            <form>
-              <label>
-                Email
-                <input type="email" name="email"class="modal-input" />
-              </label>
-              <label>
-                Komentarz
-                <textarea name="comment" rows="5" class="modal-comment" placeholder="Wprowadź tekst"></textarea>
-              </label>
-              <div class="privacy-box">
-            <input type="checkbox" class="policy-checkbox" id="policy-check" required>
-            <label class="policy-box" for="policy-check">
-             Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
-            </label>
-              </div>
-             <button type="submit" class="modal-submit-btn">Wyślij</button>
-            </form>
-          </div>
-      </div>
 
-            
-         
-           
-
-
-
-        <button type="button" class="btn-close" data-modal-close>
-          <svg class="btn-close-icon" width="11" height="11">
-            <use href="./images/icons.svg#btn-close-icon"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
       <script src="./js/modal.js"></script>
   </body>
 </html>
