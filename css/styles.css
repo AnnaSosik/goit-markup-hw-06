@@ -869,20 +869,30 @@ body {
 
 /*Checkbox Form Modal*/
 
-.privacy-container {
+.policy-container {
   margin-top: 20px;
   margin-bottom: 30px;
+  margin-left: 14px;
 }
 
 .policy-box {
-  font-weight: normal;
+  display: flex;
+  position: relative;
+  cursor:pointer;
+  align-items: center;
+}
+
+.checkbox-text{
+  font-weight: 400;
   font-size: 14px;
   color: var(--brand-color-grey);
   display: flex;
   line-height: 1.714;
   letter-spacing: 0, 03em;
   align-items: center;
+  cursor: default;
   justify-content: center;
+  text-align: center;
 }
 
 .policy-checkbox {
@@ -912,9 +922,6 @@ body {
 .policy-checkbox:checked + .policy-box::before {
   background-color: var(--brand-color-blue);
   border: none;
-  background-image: url(../images/icons.svg#icon-check);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 }
 
 .policy-checkbox:focus + .policy-box::before {
@@ -922,9 +929,21 @@ body {
   outline: 2px solid #2196f3;
 }
 
+.checkmark{
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox-icon{
+  color: var(--brand-color-white);
+  fill: currentColor;
+}
+
 .link-decoration {
   color: var(--brand-color-blue);
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .modal-btn-container {
@@ -996,3 +1015,5 @@ body {
   align-items: center;
   margin: 0 auto;
 }
+
+
