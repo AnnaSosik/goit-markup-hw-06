@@ -483,19 +483,19 @@
     <textarea name="comment" width="448" height="120" class="modal-comment" placeholder="Wprowadź tekst"></textarea>
   </div>
 
-  <div class="policy-container">
-    <input type="checkbox" class="policy-checkbox" name="text" id="policy-check" required>
-  <label class="policy-box" for="policy-check">
+
+  <label class="checkbox">
+    <input type="checkbox" name="checkbox" class="form-accept visually-hidden" required>
+    <span class="checkbox-icon">
+      <svg class="icon" width="16" height="15">
+        <use href="./images/icons.svg#icon-check">
+        </use>
+      </svg>
+    </span>
     <span class="checkbox-text">Oświadczam iż akceptuję<a href class="link-decoration">Regulamin</a>i<a href class="link-decoration">Politykę Prywatności.</a></span>
-<span class="checkmark">
-  <svg class="checkbox-icon" width="16" height="8">
-    <use href="../images/symbol-defs.svg#icon-check">
-    </use>
-  </svg>
-</span>
-</div> 
-<div class="form-btn-container">
+  </label>
          <button type="submit" class="modal-submit-btn">Wyślij</button>
+
         </form>
       </div>
     </div>
