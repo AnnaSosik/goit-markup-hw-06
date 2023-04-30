@@ -704,6 +704,11 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--brand-background-dark);
+  color:var(--brand-color-white);
+  padding: 20px;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -773,7 +778,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+ padding: 40px;
   width: 528px;
   height: 581px;
   background: #ffffff;
@@ -812,10 +817,6 @@ body {
 /*MODAL FORM*/
 
 .modal-form {
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 12px;
-  margin-bottom: 40px;
   text-align: start;
 }
 
@@ -836,7 +837,6 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--brand-color-black);
-  margin-top: 40px;
 }
 
 .label {
